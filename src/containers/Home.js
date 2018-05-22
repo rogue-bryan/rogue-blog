@@ -8,8 +8,5 @@ export default withRouteData(({ jdown, reactStatic }) => (
     <section>
       {convert(reactStatic.contents)}
     </section>
-    <section>
-      {convert(jdown.contents)}
-    </section>
   </div>
 ))
