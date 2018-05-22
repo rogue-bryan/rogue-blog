@@ -268,15 +268,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 //
 
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
-  var jdown = _ref.jdown,
-      reactStatic = _ref.reactStatic;
+  var home = _ref.home;
   return _react2.default.createElement(
     'div',
     null,
     _react2.default.createElement(
       'section',
       null,
-      (0, _htmr2.default)(reactStatic.contents)
+      (0, _htmr2.default)(home.contents)
     )
   );
 });
@@ -394,7 +393,11 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
     ),
     _react2.default.createElement('br', null),
     'All Posts:',
-    _react2.default.createElement(
+    !posts ? _react2.default.createElement(
+      'p',
+      null,
+      'no posts'
+    ) : _react2.default.createElement(
       'ul',
       null,
       posts.map(function (post) {
@@ -527,6 +530,15 @@ var App = function App() {
     _react2.default.createElement(
       'div',
       null,
+      _react2.default.createElement(
+        _reactStatic.Head,
+        null,
+        _react2.default.createElement(
+          'title',
+          null,
+          'Bryan\'s Tech Blog'
+        )
+      ),
       _react2.default.createElement(
         'nav',
         null,
@@ -1528,4 +1540,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.898c1917.js.map
+//# sourceMappingURL=static.ca6c22f6.js.map
