@@ -6,7 +6,7 @@ import ExtractTextPlugin from 'extract-text-webpack-plugin'
 chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
-  siteRoot: 'https://eugora.github.io/rogue-blog/',
+  siteRoot: 'https://eugora.github.io/',
   basePath: 'rogue-blog',
   getSiteData: () => ({
     title: 'React Static',
