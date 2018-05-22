@@ -9,7 +9,7 @@ export default {
   siteRoot: 'https://eugora.github.io/',
   basePath: 'rogue-blog',
   getSiteData: () => ({
-    title: 'React Static',
+    title: 'Bryan\'s Tech Blog',
   }),
   getRoutes: async () => {
     const { posts, home, about } = await jdown('content')

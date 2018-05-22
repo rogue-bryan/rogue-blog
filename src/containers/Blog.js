@@ -8,12 +8,16 @@ export default withRouteData(({ posts }) => (
     <h1>It's blog time.</h1>
     <br />
     All Posts:
-    <ul>
+    {!posts ? 
+      <p>no posts</p> : 
+      <ul>
       {posts.map(post => (
         <li key={post.slug}>
           <Link to={`/blog/post/${post.slug}/`}>{post.title}</Link>
         </li>
       ))}
-    </ul>
+      </ul>
+    }
+    
   </div>
 ))
