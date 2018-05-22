@@ -277,11 +277,6 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
       'section',
       null,
       (0, _htmr2.default)(reactStatic.contents)
-    ),
-    _react2.default.createElement(
-      'section',
-      null,
-      (0, _htmr2.default)(jdown.contents)
     )
   );
 });
@@ -1533,4 +1528,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ca103a0f.js.map
+//# sourceMappingURL=static.b6bdb4e9.js.map
