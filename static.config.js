@@ -7,6 +7,7 @@ chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
   siteRoot: 'https://eugora.github.io/rogue-blog/',
+  basePath: 'rogue-blog',
   getSiteData: () => ({
     title: 'React Static',
   }),
