@@ -8,6 +8,7 @@ chokidar.watch('content').on('all', () => reloadRoutes())
 export default {
   siteRoot: 'https://eugora.github.io/',
   basePath: 'rogue-blog',
+  publicPath: '/',
   getSiteData: () => ({
     title: 'Bryan\'s Tech Blog',
   }),
