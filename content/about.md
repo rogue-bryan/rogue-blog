@@ -6,12 +6,12 @@ A **progressive static-site generator** for React.
 
 - [Github](https://github.com/nozzle/react-static)
 
-![React Static](/logo.png "React static logo")
+![React Static](/rogue-blog/logo.png "React static logo")
 
 ## Jdown
 Convert a directory of markdown files to structured and usable JSON
 
 - [Github](https://github.com/DanWebb/jdown)
 
-![jdown](/jdown-logo.png "Jdown logo")
+![jdown](/rogue-blog/jdown-logo.png "Jdown logo")
 
