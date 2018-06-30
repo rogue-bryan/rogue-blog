@@ -27,3 +27,7 @@ Excellent! You've now gotten (gitten?) your first repo!
 You can now at this point start buiding your own _thing_! If you're just looking to get up and running with something quick, use this:
 
 Create a file in the directory you cloned above called _index.html_
+
+```html
+<div>test</div>
+```
