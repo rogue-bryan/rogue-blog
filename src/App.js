@@ -10,7 +10,7 @@ const App = () => (
   <Router>
     <div>
       <Head>
-        <title>Bryan's Tech Blog</title>
+        <title>Bryan's Tech Blogger</title>
       </Head>
       <nav>
         <Link to="/">Home</Link>
