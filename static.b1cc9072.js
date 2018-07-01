@@ -1451,7 +1451,7 @@ exports = module.exports = __webpack_require__(25)(false);
 
 
 // module
-exports.push([module.i, "body {\n  font-family: 'Gaegu', sans-serif;\n  font-weight: 300;\n  font-size: 18px;\n  margin: 0 auto;\n  padding: 0;\n  max-width: 1024px; }\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold; }\n\nimg {\n  max-width: 100%; }\n\nnav {\n  width: 100%;\n  background: #108db8; }\n\nnav a {\n  color: white;\n  padding: 1rem;\n  display: inline-block; }\n\n.content {\n  padding: 1rem; }\n", ""]);
+exports.push([module.i, "body {\n  font-family: 'Gaegu', sans-serif;\n  font-weight: 300;\n  font-size: 18px;\n  margin: 0 auto;\n  padding: 0;\n  max-width: 1024px;\n  background-color: #f5eddf;\n  background-image: url(\"/wood-pattern.png\"); }\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold; }\n\nimg {\n  max-width: 100%; }\n\nnav {\n  width: 100%;\n  background: #108db8; }\n\nnav a {\n  color: white;\n  padding: 1rem;\n  display: inline-block; }\n\n.content {\n  padding: 1rem; }\n", ""]);
 
 // exports
 
@@ -1541,4 +1541,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.dd552b05.js.map
+//# sourceMappingURL=static.b1cc9072.js.map
