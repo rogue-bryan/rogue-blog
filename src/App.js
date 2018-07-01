@@ -11,6 +11,7 @@ const App = () => (
     <div>
       <Head>
         <title>Bryan's Tech Blogger</title>
+        <link href="https://fonts.googleapis.com/css?family=Gaegu" rel="stylesheet"></link>
       </Head>
       <nav>
         <Link to="/">Home</Link>
