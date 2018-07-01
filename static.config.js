@@ -7,6 +7,7 @@ import path from 'path'
 chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
+  siteRoot: 'https://bryanrengo.com/',
   publicPath: '/',
   getSiteData: () => ({
     title: 'Bryan\'s Tech Blog',
