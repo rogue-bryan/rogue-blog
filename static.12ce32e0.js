@@ -536,7 +536,7 @@ var App = function App() {
         _react2.default.createElement(
           'title',
           null,
-          'Bryan\'s Tech Blog'
+          'Bryan\'s Tech Blogger'
         )
       ),
       _react2.default.createElement(
@@ -1540,4 +1540,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.ca6c22f6.js.map
+//# sourceMappingURL=static.12ce32e0.js.map

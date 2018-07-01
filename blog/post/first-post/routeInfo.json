@@ -1,1 +1,1 @@
-{"path":"blog/post/first-post","templateID":2,"sharedPropsHashes":{},"localProps":{"post":{"title":"First Post!","slug":"first-post","contents":"<p>First post! Blogging is now enabled using Markdown!</p>\n"}}}
+{"path":"blog/post/first-post","templateID":2,"sharedPropsHashes":{},"localProps":{"post":{"name":"first-post.md","contents":"<p>First post! Blogging is now enabled using Markdown!</p>\n","title":"First Post!","slug":"first-post","path":"/posts/first-post.md"}}}
