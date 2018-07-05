@@ -476,11 +476,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactStatic = __webpack_require__(1);
 
-var _reactHotLoader = __webpack_require__(13);
-
-var _reactStaticRoutes = __webpack_require__(14);
+var _reactStaticRoutes = __webpack_require__(13);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
+
+var _reactHotLoader = __webpack_require__(22);
 
 __webpack_require__(23);
 
@@ -502,8 +502,7 @@ var App = function App() {
           'title',
           null,
           'Bryan\'s Tech Blogger'
-        ),
-        _react2.default.createElement('link', { href: 'https://fonts.googleapis.com/css?family=Gaegu', rel: 'stylesheet' })
+        )
       ),
       _react2.default.createElement(
         'div',
@@ -529,25 +528,19 @@ var App = function App() {
         ),
         _react2.default.createElement(
           'section',
-          { className: 'body' },
+          null,
           _react2.default.createElement(_reactStaticRoutes2.default, null)
         )
       )
     )
   );
 };
-//
+
 exports.default = (0, _reactHotLoader.hot)(module)(App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)(module)))
 
 /***/ }),
 /* 13 */
-/***/ (function(module, exports) {
-
-module.exports = require("react-hot-loader");
-
-/***/ }),
-/* 14 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -557,15 +550,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _path2 = __webpack_require__(15);
+var _path2 = __webpack_require__(14);
 
 var _path3 = _interopRequireDefault(_path2);
 
-var _importCss2 = __webpack_require__(16);
+var _importCss2 = __webpack_require__(15);
 
 var _importCss3 = _interopRequireDefault(_importCss2);
 
-var _universalImport2 = __webpack_require__(17);
+var _universalImport2 = __webpack_require__(16);
 
 var _universalImport3 = _interopRequireDefault(_universalImport2);
 
@@ -577,9 +570,9 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(18);
+var _reactRouterDom = __webpack_require__(17);
 
-var _reactUniversalComponent = __webpack_require__(19);
+var _reactUniversalComponent = __webpack_require__(18);
 
 var _reactUniversalComponent2 = _interopRequireDefault(_reactUniversalComponent);
 
@@ -770,31 +763,31 @@ exports.default = Routes;
 /* WEBPACK VAR INJECTION */}.call(exports, "/"))
 
 /***/ }),
-/* 15 */
+/* 14 */
 /***/ (function(module, exports) {
 
 module.exports = require("path");
 
 /***/ }),
-/* 16 */
+/* 15 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/importCss");
 
 /***/ }),
-/* 17 */
+/* 16 */
 /***/ (function(module, exports) {
 
 module.exports = require("babel-plugin-universal-import/universalImport");
 
 /***/ }),
-/* 18 */
+/* 17 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-dom");
 
 /***/ }),
-/* 19 */
+/* 18 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -809,7 +802,7 @@ var _extends = Object.assign || function (target) { for (var i = 1; i < argument
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _requireUniversalModule = __webpack_require__(20);
+var _requireUniversalModule = __webpack_require__(19);
 
 Object.defineProperty(exports, 'CHUNK_NAMES', {
   enumerable: true,
@@ -824,7 +817,7 @@ Object.defineProperty(exports, 'MODULE_IDS', {
   }
 });
 
-var _reportChunks = __webpack_require__(21);
+var _reportChunks = __webpack_require__(20);
 
 Object.defineProperty(exports, 'ReportChunks', {
   enumerable: true,
@@ -841,7 +834,7 @@ var _propTypes = __webpack_require__(4);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(22);
+var _hoistNonReactStatics = __webpack_require__(21);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -1141,7 +1134,7 @@ exports.default = universal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(2)(module)))
 
 /***/ }),
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1323,7 +1316,7 @@ var getConfig = function getConfig(isDynamic, universalConfig, options, props) {
 };
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1386,10 +1379,16 @@ ReportChunks.childContextTypes = {
 exports.default = ReportChunks;
 
 /***/ }),
-/* 22 */
+/* 21 */
 /***/ (function(module, exports) {
 
 module.exports = require("hoist-non-react-statics");
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-hot-loader");
 
 /***/ }),
 /* 23 */
@@ -1403,7 +1402,7 @@ module.exports = require("normalize.css");
 
 exports = module.exports = __webpack_require__(25)(false);
 // imports
-
+exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Gaegu);", ""]);
 
 // module
 exports.push([module.i, "body {\n  font-family: 'Gaegu', sans-serif;\n  font-size: 18px;\n  font-weight: 300;\n  line-height: 1em;\n  margin: 0 auto;\n  padding: 0;\n  background-color: #f5eddf;\n  background-image: url(\"/wood-pattern.png\"); }\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold; }\n\nh1, h2, h3, h4 {\n  margin-top: 0; }\n\nh1 {\n  font-size: 36px; }\n\nh2 {\n  font-size: 20px; }\n\n.paper {\n  width: 816px;\n  min-height: 1056px;\n  margin: 0 auto;\n  position: relative;\n  background: #fff;\n  background: -webkit-gradient(linear, left top, left bottom, from(#d9eaf3), color-stop(8%, #fff)) 0 4px;\n  background: linear-gradient(to bottom, #d9eaf3 0%, #fff 8%) 0 4px;\n  background-size: 100% 1em; }\n  .paper nav:first-of-type {\n    min-height: 76px;\n    background-color: #fff;\n    text-align: right; }\n    .paper nav:first-of-type a {\n      color: #108db8;\n      display: inline-block;\n      padding: 1rem; }\n  .paper section:first-of-type {\n    position: relative;\n    padding: 0 68px; }\n\n.paper,\n.paper::before,\n.paper::after {\n  /* Add shadow to distinguish sheets from one another */\n  -webkit-box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);\n          box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15); }\n\n.paper::before,\n.paper::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #eee; }\n\n/* Second sheet of paper */\n.paper::before {\n  left: 5px;\n  top: 5px;\n  z-index: -1; }\n\n/* Third sheet of paper */\n.paper::after {\n  left: 10px;\n  top: 10px;\n  z-index: -2; }\n", ""]);
@@ -1496,4 +1495,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.683e753d.js.map
+//# sourceMappingURL=static.123d1357.js.map
