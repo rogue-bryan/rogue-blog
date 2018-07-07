@@ -20,6 +20,7 @@ export default {
           component: 'src/containers/Page',
           getData: () => ({
             data: content.home,
+            posts: content.posts.children.slice(0, 3)
           }),
         },
         {
