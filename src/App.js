@@ -2,6 +2,7 @@ import React from 'react'
 import { Router, Link, Head } from 'react-static'
 import Routes from 'react-static-routes'
 import { hot } from 'react-hot-loader'
+import Analytics from './Analytics'
 
 import 'normalize.css'
 import './app.scss'
@@ -19,7 +20,9 @@ const App = () => (
           <Link to="/blog">Blog</Link>
         </nav>
         <section>
-          <Routes />
+          <Analytics id={process.env.GA_TOKEN}>
+            <Routes />
+          </Analytics>
         </section>
       </div>
     </div>

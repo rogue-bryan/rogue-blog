@@ -1,4 +1,5 @@
 import ExtractTextPlugin from 'extract-text-webpack-plugin'
+import Dotenv from 'dotenv-webpack'
 
 export default (config, { defaultLoaders, stage }) => {
     let loaders = []
@@ -54,6 +55,11 @@ export default (config, { defaultLoaders, stage }) => {
           defaultLoaders.fileLoader,
         ],
       },
+    ]
+
+    config.plugins = [
+      ...config.plugins,
+      new Dotenv()
     ]
     return config
   };
