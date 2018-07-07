@@ -257,15 +257,21 @@ var _htmr = __webpack_require__(6);
 
 var _htmr2 = _interopRequireDefault(_htmr);
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _Notes = __webpack_require__(22);
 
-//
+var _Notes2 = _interopRequireDefault(_Notes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
   var data = _ref.data;
+
+  var posts = data.posts;
+
   return _react2.default.createElement(
     'div',
     null,
+    _react2.default.createElement(_Notes2.default, { posts: posts }),
     _react2.default.createElement(
       'h2',
       null,
@@ -480,15 +486,15 @@ var _reactStaticRoutes = __webpack_require__(13);
 
 var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
-var _reactHotLoader = __webpack_require__(22);
+var _reactHotLoader = __webpack_require__(23);
 
-var _Analytics = __webpack_require__(23);
+var _Analytics = __webpack_require__(24);
 
 var _Analytics2 = _interopRequireDefault(_Analytics);
 
-__webpack_require__(25);
-
 __webpack_require__(26);
+
+__webpack_require__(27);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -1394,12 +1400,65 @@ module.exports = require("hoist-non-react-statics");
 
 /***/ }),
 /* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactStatic = __webpack_require__(1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
+    var posts = _ref.posts;
+
+
+    if (posts) {
+        return _react2.default.createElement(
+            'div',
+            { className: 'note' },
+            _react2.default.createElement(
+                'h2',
+                null,
+                'Recent Posts'
+            ),
+            _react2.default.createElement(
+                'ul',
+                null,
+                posts.map(function (post) {
+                    return _react2.default.createElement(
+                        'li',
+                        { key: post.slug },
+                        _react2.default.createElement(
+                            _reactStatic.Link,
+                            { to: '/blog/post/' + post.slug + '/' },
+                            post.title
+                        )
+                    );
+                })
+            )
+        );
+    } else {
+        return null;
+    }
+});
+
+/***/ }),
+/* 23 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-hot-loader");
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1419,7 +1478,7 @@ function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in ob
 
 var Analytics = {};
 if (typeof document !== 'undefined') {
-  Analytics = __webpack_require__(24).default;
+  Analytics = __webpack_require__(25).default;
 }
 
 exports.default = function (_ref) {
@@ -1438,33 +1497,33 @@ exports.default = function (_ref) {
 };
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("react-router-ga");
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports) {
 
 module.exports = require("normalize.css");
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(27)(false);
+exports = module.exports = __webpack_require__(28)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Gaegu);", ""]);
 
 // module
-exports.push([module.i, "body {\n  font-family: 'Gaegu', sans-serif;\n  font-size: 18px;\n  font-weight: 300;\n  line-height: 1em;\n  margin: 0 auto;\n  padding: 0;\n  background-color: #f5eddf;\n  background-image: url(\"/wood-pattern.png\"); }\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold; }\n\nh1, h2, h3, h4 {\n  margin-top: 0; }\n\nh1 {\n  font-size: 36px; }\n\nh2 {\n  font-size: 20px; }\n\n.paper {\n  width: 816px;\n  min-height: 1056px;\n  margin: 0 auto;\n  position: relative;\n  background: #fff;\n  background: -webkit-gradient(linear, left top, left bottom, from(#d9eaf3), color-stop(8%, #fff)) 0 4px;\n  background: linear-gradient(to bottom, #d9eaf3 0%, #fff 8%) 0 4px;\n  background-size: 100% 1em; }\n  .paper nav:first-of-type {\n    min-height: 76px;\n    background-color: #fff;\n    text-align: right; }\n    .paper nav:first-of-type a {\n      color: #108db8;\n      display: inline-block;\n      padding: 1rem; }\n  .paper section:first-of-type {\n    position: relative;\n    padding: 0 68px; }\n\n.paper,\n.paper::before,\n.paper::after {\n  /* Add shadow to distinguish sheets from one another */\n  -webkit-box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);\n          box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15); }\n\n.paper::before,\n.paper::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #eee; }\n\n/* Second sheet of paper */\n.paper::before {\n  left: 5px;\n  top: 5px;\n  z-index: -1; }\n\n/* Third sheet of paper */\n.paper::after {\n  left: 10px;\n  top: 10px;\n  z-index: -2; }\n", ""]);
+exports.push([module.i, "body {\n  font-family: 'Gaegu', sans-serif;\n  font-size: 18px;\n  font-weight: 300;\n  line-height: 1em;\n  margin: 0 auto;\n  padding: 0;\n  background-color: #f5eddf;\n  background-image: url(\"/wood-pattern.png\"); }\n\na {\n  text-decoration: none;\n  color: #108db8;\n  font-weight: bold; }\n\nh1, h2, h3, h4 {\n  margin-top: 0; }\n\nh1 {\n  font-size: 36px; }\n\nh2 {\n  font-size: 20px; }\n\n.paper {\n  width: 816px;\n  min-height: 1056px;\n  margin: 0 auto;\n  position: relative;\n  background: #fff;\n  background: -webkit-gradient(linear, left top, left bottom, from(#d9eaf3), color-stop(8%, #fff)) 0 4px;\n  background: linear-gradient(to bottom, #d9eaf3 0%, #fff 8%) 0 4px;\n  background-size: 100% 1em; }\n  .paper nav:first-of-type {\n    min-height: 76px;\n    background-color: #fff;\n    text-align: right; }\n    .paper nav:first-of-type a {\n      color: #108db8;\n      display: inline-block;\n      padding: 1rem; }\n  .paper section:first-of-type {\n    position: relative;\n    padding: 0 68px; }\n\n.paper,\n.paper::before,\n.paper::after {\n  /* Add shadow to distinguish sheets from one another */\n  -webkit-box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15);\n          box-shadow: 2px 1px 1px rgba(0, 0, 0, 0.15); }\n\n.paper::before,\n.paper::after {\n  content: \"\";\n  position: absolute;\n  width: 100%;\n  height: 100%;\n  background-color: #eee; }\n\n/* Second sheet of paper */\n.paper::before {\n  left: 5px;\n  top: 5px;\n  z-index: -1; }\n\n/* Third sheet of paper */\n.paper::after {\n  left: 10px;\n  top: 10px;\n  z-index: -2; }\n\n.note {\n  float: right;\n  text-decoration: none;\n  color: #000;\n  background: #ffc;\n  border: 1px solid #fec;\n  padding: 1em;\n  margin: 0 1em;\n  display: block;\n  width: 12em;\n  -webkit-box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);\n          box-shadow: 5px 5px 7px rgba(33, 33, 33, 0.7);\n  -webkit-transition: -webkit-transform .15s linear;\n  transition: -webkit-transform .15s linear;\n  transition: transform .15s linear;\n  transition: transform .15s linear, -webkit-transform .15s linear;\n  -webkit-transform: rotate(-3deg);\n          transform: rotate(-3deg); }\n  .note ul {\n    padding: 0 1em 0 1em; }\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports) {
 
 /*
@@ -1548,4 +1607,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.7f5e9234.js.map
+//# sourceMappingURL=static.03cc3fe8.js.map
