@@ -482,9 +482,13 @@ var _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);
 
 var _reactHotLoader = __webpack_require__(22);
 
-__webpack_require__(23);
+var _Analytics = __webpack_require__(23);
 
-__webpack_require__(24);
+var _Analytics2 = _interopRequireDefault(_Analytics);
+
+__webpack_require__(25);
+
+__webpack_require__(26);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -529,7 +533,11 @@ var App = function App() {
         _react2.default.createElement(
           'section',
           null,
-          _react2.default.createElement(_reactStaticRoutes2.default, null)
+          _react2.default.createElement(
+            _Analytics2.default,
+            { id: "UA-121822750-1" },
+            _react2.default.createElement(_reactStaticRoutes2.default, null)
+          )
         )
       )
     )
@@ -1392,15 +1400,60 @@ module.exports = require("react-hot-loader");
 
 /***/ }),
 /* 23 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+
+var Analytics = {};
+if (typeof document !== 'undefined') {
+  Analytics = __webpack_require__(24).default;
+}
+
+exports.default = function (_ref) {
+  var children = _ref.children,
+      rest = _objectWithoutProperties(_ref, ['children']);
+
+  if (typeof document !== 'undefined') {
+    return _react2.default.createElement(
+      Analytics,
+      rest,
+      children
+    );
+  }
+
+  return children;
+};
+
+/***/ }),
+/* 24 */
+/***/ (function(module, exports) {
+
+module.exports = require("react-router-ga");
+
+/***/ }),
+/* 25 */
 /***/ (function(module, exports) {
 
 module.exports = require("normalize.css");
 
 /***/ }),
-/* 24 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(25)(false);
+exports = module.exports = __webpack_require__(27)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Gaegu);", ""]);
 
@@ -1411,7 +1464,7 @@ exports.push([module.i, "body {\n  font-family: 'Gaegu', sans-serif;\n  font-siz
 
 
 /***/ }),
-/* 25 */
+/* 27 */
 /***/ (function(module, exports) {
 
 /*
@@ -1495,4 +1548,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.123d1357.js.map
+//# sourceMappingURL=static.7f5e9234.js.map
