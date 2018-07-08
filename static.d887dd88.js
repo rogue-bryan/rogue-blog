@@ -264,9 +264,8 @@ var _Notes2 = _interopRequireDefault(_Notes);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
-  var data = _ref.data;
-
-  var posts = data.posts;
+  var data = _ref.data,
+      posts = _ref.posts;
 
   return _react2.default.createElement(
     'div',
@@ -1420,7 +1419,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
     var posts = _ref.posts;
 
-
     if (posts) {
         return _react2.default.createElement(
             'div',
@@ -1607,4 +1605,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.03cc3fe8.js.map
+//# sourceMappingURL=static.d887dd88.js.map
