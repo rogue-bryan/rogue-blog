@@ -11,6 +11,12 @@ body {
   background-image: url("/wood-pattern.png");
 }
 
+code, pre {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1em;
+}
+
 a {
   text-decoration: none;
   color: #108db8;
@@ -31,7 +37,7 @@ h2 {
 
 .paper {
   width: 816px;
-  min-height: 1056px;
+  min-height: 95vh;
   margin: 0 auto;
   position: relative;
   background: #fff;
@@ -52,7 +58,7 @@ h2 {
 
   section:first-of-type {
     position: relative;
-    padding: 0 68px;
+    padding: 0 68px 1em 68px;
   }
 
   // &::before {
