@@ -44,7 +44,7 @@ h2 {
   background: linear-gradient(to bottom, #d9eaf3 0%, #fff 8%) 0 4px;
   background-size: 100% 1em;
 
-  nav:first-of-type {
+  header {
     min-height: 76px;
     background-color: #fff;
     text-align: right;
@@ -56,7 +56,7 @@ h2 {
     }
   }
 
-  section:first-of-type {
+  main {
     position: relative;
     padding: 0 68px 1em 68px;
   }

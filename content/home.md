@@ -1,5 +1,5 @@
 ---
-title: Bryan's Tech Blogging
+title: Home
 ---
 
 I'm very excited to start building a new website. Sometimes it takes a great deal of thought to build out some useful content, and I'm hoping that by blogging, I can help out people use this React-Static technology. Feel free to browse the blog content, I feel like this will help me focus on problems and solutions that I had building this site.

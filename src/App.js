@@ -11,19 +11,23 @@ const App = () => (
   <Router>
     <div>
       <Head>
-        <title>Bryan's Tech Blogger</title>
+        <title>Bryan's Notes</title>
       </Head>
       <div className="paper">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/blog">Blog</Link>
-        </nav>
-        <section>
+        <header>
+          <nav>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/blog">Blog</Link>
+          </nav>
+        </header>
+        <main>
           <Analytics id={process.env.GA_TOKEN}>
             <Routes />
           </Analytics>
-        </section>
+        </main>
+        <footer>
+        </footer>
       </div>
     </div>
   </Router>

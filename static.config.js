@@ -10,7 +10,7 @@ export default {
   siteRoot: 'https://bryanrengo.com/',
   publicPath: '/',
   getSiteData: () => ({
-    title: 'Bryan\'s Tech Blog',
+    siteTitle: 'Bryan\'s Tech Blog',
   }),
   getRoutes: async () => {
       const content = await renderMarkdown(path.resolve(__dirname, './content'))
