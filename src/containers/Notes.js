@@ -2,7 +2,7 @@ import React from 'react'
 import { withRouteData, Link } from 'react-static'
 
 export default withRouteData(({ posts }) => {
-    if (posts) {
+    if (posts && posts.length) {
         return (
             <div className="note">
                 <h2>Recent Posts</h2>
