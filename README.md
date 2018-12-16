@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/eugora/rogue-blog.svg?branch=master)](https://travis-ci.org/eugora/rogue-blog)
+[![Build Status](https://travis-ci.org/rogue-bryan/rogue-blog.svg?branch=master)](https://travis-ci.org/rogue-bryan/rogue-blog)
 
 # My Blog and Website - Created using React-Static
 
