@@ -3,8 +3,7 @@ import { withRouteData } from 'react-static'
 import convert from 'htmr'
 import Notes from './Notes'
 
-export default withRouteData(({ data, posts }) => {
-  return (
+export default withRouteData(({ data, posts }) => (
   <div>
     <Notes posts={posts} />
     <h2>{data.title}</h2>
@@ -12,5 +11,4 @@ export default withRouteData(({ data, posts }) => {
       {convert(data.contents)}
     </div>
   </div>
-  )
-})
+));

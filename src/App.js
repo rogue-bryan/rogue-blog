@@ -1,18 +1,13 @@
-import React from 'react'
-import { Router, Link, Head } from 'react-static'
-import Routes from 'react-static-routes'
-import { hot } from 'react-hot-loader'
-import Analytics from './Analytics'
+import React from 'react';
+import { Root, Routes } from 'react-static';
+import { Link } from '@reach/router';
 
-import 'normalize.css'
-import './app.scss'
+import 'normalize.css';
+import './app.scss';
 
-const App = () => (
-  <Router>
-    <div>
-      <Head>
-        <title>Bryan's Tech Blogger</title>
-      </Head>
+function App() {
+  return (
+    <Root>
       <div className="paper">
         <nav>
           <Link to="/">Home</Link>
@@ -20,13 +15,11 @@ const App = () => (
           <Link to="/blog">Blog</Link>
         </nav>
         <section>
-          <Analytics id={process.env.GA_TOKEN}>
-            <Routes />
-          </Analytics>
-        </section>
+          <Routes />
+        </section>        
       </div>
-    </div>
-  </Router>
-)
+    </Root>
+  );
+}
 
-export default hot(module)(App)
+export default App

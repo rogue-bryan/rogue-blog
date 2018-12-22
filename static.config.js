@@ -1,7 +1,6 @@
 import { reloadRoutes } from 'react-static/node';
 import chokidar from 'chokidar';
 import {getPages, getPosts} from './src/content.renderer';
-import webpackConfig from './webpack.config';
 import path from 'path';
 
 chokidar.watch('content').on('all', () => reloadRoutes());
@@ -18,5 +17,5 @@ export default {
     pages = pages.concat(posts.posts);
     return pages;
   },
-  webpack: (config, { defaultLoaders, stage }) => webpackConfig(config, { defaultLoaders, stage }),
+  plugins: ["react-static-plugin-sass"]
 };
