@@ -336,7 +336,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
           { key: post.slug },
           _react2.default.createElement(
             _reactStatic.Link,
-            { to: '/blog/post/' + post.slug + '/' },
+            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },
             post.title
           )
         );
@@ -367,8 +367,6 @@ var _htmr = __webpack_require__(6);
 var _htmr2 = _interopRequireDefault(_htmr);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-//
 
 exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
   var post = _ref.post;
@@ -1391,7 +1389,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
                         { key: post.slug },
                         _react2.default.createElement(
                             _reactStatic.Link,
-                            { to: '/blog/post/' + post.slug + '/' },
+                            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },
                             post.title
                         )
                     );
@@ -1553,4 +1551,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.178da79f.js.map
+//# sourceMappingURL=static.0ad6d3ec.js.map

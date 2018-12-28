@@ -2,37 +2,37 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "57e2af6ac08bea86fa10",
-  "time": 7612,
+  "hash": "cb0ed31f3229d757c3f7",
+  "time": 7139,
   "publicPath": "https://bryanrengo.com/",
   "assetsByChunkName": {
     "src/containers/Page": [
-      "templates/src/containers/Page.13aa58f8.js",
-      "templates/src/containers/Page.13aa58f8.js.map"
+      "templates/src/containers/Page.53dc3a43.js",
+      "templates/src/containers/Page.53dc3a43.js.map"
     ],
     "src/containers/Post": [
-      "templates/src/containers/Post.e4ca3b06.js",
-      "templates/src/containers/Post.e4ca3b06.js.map"
+      "templates/src/containers/Post.0b75343b.js",
+      "templates/src/containers/Post.0b75343b.js.map"
     ],
     "src/containers/Blog": [
-      "templates/src/containers/Blog.fd8b8eb7.js",
-      "templates/src/containers/Blog.fd8b8eb7.js.map"
+      "templates/src/containers/Blog.13ee600f.js",
+      "templates/src/containers/Blog.13ee600f.js.map"
     ],
     "main": [
       "main.1dbaacda.js",
-      "styles.57e2af6a.css",
+      "styles.cb0ed31f.css",
       "main.1dbaacda.js.map",
-      "styles.57e2af6a.css.map"
+      "styles.cb0ed31f.css.map"
     ],
     "bootstrap": [
-      "bootstrap.261e639a.js",
-      "bootstrap.261e639a.js.map"
+      "bootstrap.0debc633.js",
+      "bootstrap.0debc633.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/containers/Page.13aa58f8.js",
-      "size": 4028,
+      "name": "templates/src/containers/Page.53dc3a43.js",
+      "size": 4071,
       "chunks": [
         0
       ],
@@ -42,7 +42,7 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Post.e4ca3b06.js",
+      "name": "templates/src/containers/Post.0b75343b.js",
       "size": 3407,
       "chunks": [
         1
@@ -53,8 +53,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Blog.fd8b8eb7.js",
-      "size": 642,
+      "name": "templates/src/containers/Blog.13ee600f.js",
+      "size": 685,
       "chunks": [
         2
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.261e639a.js",
+      "name": "bootstrap.0debc633.js",
       "size": 1565,
       "chunks": [
         4
@@ -87,7 +87,7 @@
       "emitted": true
     },
     {
-      "name": "styles.57e2af6a.css",
+      "name": "styles.cb0ed31f.css",
       "size": 1714,
       "chunks": [
         3
@@ -98,8 +98,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Page.13aa58f8.js.map",
-      "size": 16228,
+      "name": "templates/src/containers/Page.53dc3a43.js.map",
+      "size": 16405,
       "chunks": [
         0
       ],
@@ -109,8 +109,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Post.e4ca3b06.js.map",
-      "size": 12955,
+      "name": "templates/src/containers/Post.0b75343b.js.map",
+      "size": 12939,
       "chunks": [
         1
       ],
@@ -120,8 +120,8 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Blog.fd8b8eb7.js.map",
-      "size": 2923,
+      "name": "templates/src/containers/Blog.13ee600f.js.map",
+      "size": 3100,
       "chunks": [
         2
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.57e2af6a.css.map",
+      "name": "styles.cb0ed31f.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.261e639a.js.map",
+      "name": "bootstrap.0debc633.js.map",
       "size": 14480,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.261e639a.js",
-        "bootstrap.261e639a.js.map",
+        "bootstrap.0debc633.js",
+        "bootstrap.0debc633.js.map",
         "main.1dbaacda.js",
-        "styles.57e2af6a.css",
+        "styles.cb0ed31f.css",
         "main.1dbaacda.js.map",
-        "styles.57e2af6a.css.map"
+        "styles.cb0ed31f.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -189,15 +189,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 5316,
+      "size": 5380,
       "names": [
         "src/containers/Page"
       ],
       "files": [
-        "templates/src/containers/Page.13aa58f8.js",
-        "templates/src/containers/Page.13aa58f8.js.map"
+        "templates/src/containers/Page.53dc3a43.js",
+        "templates/src/containers/Page.53dc3a43.js.map"
       ],
-      "hash": "13aa58f82c1f1c978391",
+      "hash": "53dc3a4313f212b9253a",
       "parents": [
         3
       ],
@@ -303,7 +303,7 @@
           "name": "./src/containers/Notes.js",
           "index": 131,
           "index2": 127,
-          "size": 1276,
+          "size": 1340,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -333,7 +333,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 4,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n    var posts = _ref.posts;\n\n    if (posts && posts.length) {\n        return _react2.default.createElement(\n            'div',\n            { className: 'note' },\n            _react2.default.createElement(\n                'h2',\n                null,\n                'Recent Posts'\n            ),\n            _react2.default.createElement(\n                'ul',\n                null,\n                posts.map(function (post) {\n                    return _react2.default.createElement(\n                        'li',\n                        { key: post.slug },\n                        _react2.default.createElement(\n                            _reactStatic.Link,\n                            { to: '/blog/post/' + post.slug + '/' },\n                            post.title\n                        )\n                    );\n                })\n            )\n        );\n    } else {\n        return null;\n    }\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n    var posts = _ref.posts;\n\n    if (posts && posts.length) {\n        return _react2.default.createElement(\n            'div',\n            { className: 'note' },\n            _react2.default.createElement(\n                'h2',\n                null,\n                'Recent Posts'\n            ),\n            _react2.default.createElement(\n                'ul',\n                null,\n                posts.map(function (post) {\n                    return _react2.default.createElement(\n                        'li',\n                        { key: post.slug },\n                        _react2.default.createElement(\n                            _reactStatic.Link,\n                            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },\n                            post.title\n                        )\n                    );\n                })\n            )\n        );\n    } else {\n        return null;\n    }\n});"
         }
       ],
       "filteredModules": 0,
@@ -355,15 +355,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 3798,
+      "size": 3794,
       "names": [
         "src/containers/Post"
       ],
       "files": [
-        "templates/src/containers/Post.e4ca3b06.js",
-        "templates/src/containers/Post.e4ca3b06.js.map"
+        "templates/src/containers/Post.0b75343b.js",
+        "templates/src/containers/Post.0b75343b.js.map"
       ],
-      "hash": "e4ca3b06b674cc0d7337",
+      "hash": "0b75343b92ba999ca8db",
       "parents": [
         3
       ],
@@ -374,7 +374,7 @@
           "name": "./src/containers/Post.js",
           "index": 133,
           "index2": 130,
-          "size": 664,
+          "size": 660,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -413,7 +413,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var post = _ref.post;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h3',\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var post = _ref.post;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h3',\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n});"
         },
         {
           "id": 137,
@@ -483,15 +483,15 @@
       "initial": false,
       "entry": false,
       "extraAsync": false,
-      "size": 1084,
+      "size": 1148,
       "names": [
         "src/containers/Blog"
       ],
       "files": [
-        "templates/src/containers/Blog.fd8b8eb7.js",
-        "templates/src/containers/Blog.fd8b8eb7.js.map"
+        "templates/src/containers/Blog.13ee600f.js",
+        "templates/src/containers/Blog.13ee600f.js.map"
       ],
-      "hash": "fd8b8eb7a0b1cd59bd10",
+      "hash": "13ee600f2efaf0c758c9",
       "parents": [
         3
       ],
@@ -502,7 +502,7 @@
           "name": "./src/containers/Blog.js",
           "index": 132,
           "index2": 129,
-          "size": 1084,
+          "size": 1148,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -541,7 +541,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 3,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h2',\n      null,\n      'It\\'s blog time.'\n    ),\n    _react2.default.createElement('br', null),\n    'All Posts:',\n    !posts ? _react2.default.createElement(\n      'p',\n      null,\n      'no posts'\n    ) : _react2.default.createElement(\n      'ul',\n      null,\n      posts.map(function (post) {\n        return _react2.default.createElement(\n          'li',\n          { key: post.slug },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/blog/post/' + post.slug + '/' },\n            post.title\n          )\n        );\n      })\n    )\n  );\n});"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h2',\n      null,\n      'It\\'s blog time.'\n    ),\n    _react2.default.createElement('br', null),\n    'All Posts:',\n    !posts ? _react2.default.createElement(\n      'p',\n      null,\n      'no posts'\n    ) : _react2.default.createElement(\n      'ul',\n      null,\n      posts.map(function (post) {\n        return _react2.default.createElement(\n          'li',\n          { key: post.slug },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },\n            post.title\n          )\n        );\n      })\n    )\n  );\n});"
         }
       ],
       "filteredModules": 0,
@@ -569,9 +569,9 @@
       ],
       "files": [
         "main.1dbaacda.js",
-        "styles.57e2af6a.css",
+        "styles.cb0ed31f.css",
         "main.1dbaacda.js.map",
-        "styles.57e2af6a.css.map"
+        "styles.cb0ed31f.css.map"
       ],
       "hash": "1dbaacda3caf1c42eb9a",
       "parents": [
@@ -7633,10 +7633,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.261e639a.js",
-        "bootstrap.261e639a.js.map"
+        "bootstrap.0debc633.js",
+        "bootstrap.0debc633.js.map"
       ],
-      "hash": "261e639a26c7f36d4a7c",
+      "hash": "0debc633d497ea2d794a",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -11462,7 +11462,7 @@
       "name": "./src/containers/Blog.js",
       "index": 132,
       "index2": 129,
-      "size": 1084,
+      "size": 1148,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -11501,7 +11501,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h2',\n      null,\n      'It\\'s blog time.'\n    ),\n    _react2.default.createElement('br', null),\n    'All Posts:',\n    !posts ? _react2.default.createElement(\n      'p',\n      null,\n      'no posts'\n    ) : _react2.default.createElement(\n      'ul',\n      null,\n      posts.map(function (post) {\n        return _react2.default.createElement(\n          'li',\n          { key: post.slug },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/blog/post/' + post.slug + '/' },\n            post.title\n          )\n        );\n      })\n    )\n  );\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var posts = _ref.posts;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h2',\n      null,\n      'It\\'s blog time.'\n    ),\n    _react2.default.createElement('br', null),\n    'All Posts:',\n    !posts ? _react2.default.createElement(\n      'p',\n      null,\n      'no posts'\n    ) : _react2.default.createElement(\n      'ul',\n      null,\n      posts.map(function (post) {\n        return _react2.default.createElement(\n          'li',\n          { key: post.slug },\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },\n            post.title\n          )\n        );\n      })\n    )\n  );\n});"
     },
     {
       "id": 52,
@@ -11509,7 +11509,7 @@
       "name": "./src/containers/Post.js",
       "index": 133,
       "index2": 130,
-      "size": 664,
+      "size": 660,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -11548,7 +11548,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 3,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var post = _ref.post;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h3',\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var post = _ref.post;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h3',\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n});"
     },
     {
       "id": 53,
@@ -14869,7 +14869,7 @@
       "name": "./src/containers/Notes.js",
       "index": 131,
       "index2": 127,
-      "size": 1276,
+      "size": 1340,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -14899,7 +14899,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 4,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n    var posts = _ref.posts;\n\n    if (posts && posts.length) {\n        return _react2.default.createElement(\n            'div',\n            { className: 'note' },\n            _react2.default.createElement(\n                'h2',\n                null,\n                'Recent Posts'\n            ),\n            _react2.default.createElement(\n                'ul',\n                null,\n                posts.map(function (post) {\n                    return _react2.default.createElement(\n                        'li',\n                        { key: post.slug },\n                        _react2.default.createElement(\n                            _reactStatic.Link,\n                            { to: '/blog/post/' + post.slug + '/' },\n                            post.title\n                        )\n                    );\n                })\n            )\n        );\n    } else {\n        return null;\n    }\n});"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n    var posts = _ref.posts;\n\n    if (posts && posts.length) {\n        return _react2.default.createElement(\n            'div',\n            { className: 'note' },\n            _react2.default.createElement(\n                'h2',\n                null,\n                'Recent Posts'\n            ),\n            _react2.default.createElement(\n                'ul',\n                null,\n                posts.map(function (post) {\n                    return _react2.default.createElement(\n                        'li',\n                        { key: post.slug },\n                        _react2.default.createElement(\n                            _reactStatic.Link,\n                            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },\n                            post.title\n                        )\n                    );\n                })\n            )\n        );\n    } else {\n        return null;\n    }\n});"
     }
   ],
   "filteredModules": 0,
