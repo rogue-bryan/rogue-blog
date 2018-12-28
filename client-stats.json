@@ -2,36 +2,36 @@
   "errors": [],
   "warnings": [],
   "version": "3.12.0",
-  "hash": "bffed4c5d69ade2222d3",
-  "time": 7835,
+  "hash": "57e2af6ac08bea86fa10",
+  "time": 7612,
   "publicPath": "https://bryanrengo.com/",
   "assetsByChunkName": {
     "src/containers/Page": [
-      "templates/src/containers/Page.a2fb2a23.js",
-      "templates/src/containers/Page.a2fb2a23.js.map"
+      "templates/src/containers/Page.13aa58f8.js",
+      "templates/src/containers/Page.13aa58f8.js.map"
     ],
     "src/containers/Post": [
-      "templates/src/containers/Post.c912afde.js",
-      "templates/src/containers/Post.c912afde.js.map"
+      "templates/src/containers/Post.e4ca3b06.js",
+      "templates/src/containers/Post.e4ca3b06.js.map"
     ],
     "src/containers/Blog": [
       "templates/src/containers/Blog.fd8b8eb7.js",
       "templates/src/containers/Blog.fd8b8eb7.js.map"
     ],
     "main": [
-      "main.ea1657d9.js",
-      "styles.bffed4c5.css",
-      "main.ea1657d9.js.map",
-      "styles.bffed4c5.css.map"
+      "main.1dbaacda.js",
+      "styles.57e2af6a.css",
+      "main.1dbaacda.js.map",
+      "styles.57e2af6a.css.map"
     ],
     "bootstrap": [
-      "bootstrap.8ef92825.js",
-      "bootstrap.8ef92825.js.map"
+      "bootstrap.261e639a.js",
+      "bootstrap.261e639a.js.map"
     ]
   },
   "assets": [
     {
-      "name": "templates/src/containers/Page.a2fb2a23.js",
+      "name": "templates/src/containers/Page.13aa58f8.js",
       "size": 4028,
       "chunks": [
         0
@@ -42,7 +42,7 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Post.c912afde.js",
+      "name": "templates/src/containers/Post.e4ca3b06.js",
       "size": 3407,
       "chunks": [
         1
@@ -64,8 +64,8 @@
       "emitted": true
     },
     {
-      "name": "main.ea1657d9.js",
-      "size": 277542,
+      "name": "main.1dbaacda.js",
+      "size": 278149,
       "chunks": [
         3
       ],
@@ -76,7 +76,7 @@
       "isOverSizeLimit": true
     },
     {
-      "name": "bootstrap.8ef92825.js",
+      "name": "bootstrap.261e639a.js",
       "size": 1565,
       "chunks": [
         4
@@ -87,8 +87,8 @@
       "emitted": true
     },
     {
-      "name": "styles.bffed4c5.css",
-      "size": 3648,
+      "name": "styles.57e2af6a.css",
+      "size": 1714,
       "chunks": [
         3
       ],
@@ -98,7 +98,7 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Page.a2fb2a23.js.map",
+      "name": "templates/src/containers/Page.13aa58f8.js.map",
       "size": 16228,
       "chunks": [
         0
@@ -109,7 +109,7 @@
       "emitted": true
     },
     {
-      "name": "templates/src/containers/Post.c912afde.js.map",
+      "name": "templates/src/containers/Post.e4ca3b06.js.map",
       "size": 12955,
       "chunks": [
         1
@@ -131,8 +131,8 @@
       "emitted": true
     },
     {
-      "name": "main.ea1657d9.js.map",
-      "size": 1512301,
+      "name": "main.1dbaacda.js.map",
+      "size": 1513938,
       "chunks": [
         3
       ],
@@ -142,7 +142,7 @@
       "emitted": true
     },
     {
-      "name": "styles.bffed4c5.css.map",
+      "name": "styles.57e2af6a.css.map",
       "size": 96,
       "chunks": [
         3
@@ -153,7 +153,7 @@
       "emitted": true
     },
     {
-      "name": "bootstrap.8ef92825.js.map",
+      "name": "bootstrap.261e639a.js.map",
       "size": 14480,
       "chunks": [
         4
@@ -172,12 +172,12 @@
         3
       ],
       "assets": [
-        "bootstrap.8ef92825.js",
-        "bootstrap.8ef92825.js.map",
-        "main.ea1657d9.js",
-        "styles.bffed4c5.css",
-        "main.ea1657d9.js.map",
-        "styles.bffed4c5.css.map"
+        "bootstrap.261e639a.js",
+        "bootstrap.261e639a.js.map",
+        "main.1dbaacda.js",
+        "styles.57e2af6a.css",
+        "main.1dbaacda.js.map",
+        "styles.57e2af6a.css.map"
       ],
       "isOverSizeLimit": true
     }
@@ -194,10 +194,10 @@
         "src/containers/Page"
       ],
       "files": [
-        "templates/src/containers/Page.a2fb2a23.js",
-        "templates/src/containers/Page.a2fb2a23.js.map"
+        "templates/src/containers/Page.13aa58f8.js",
+        "templates/src/containers/Page.13aa58f8.js.map"
       ],
-      "hash": "a2fb2a2394488055e967",
+      "hash": "13aa58f82c1f1c978391",
       "parents": [
         3
       ],
@@ -250,7 +250,7 @@
           "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nvar _Notes = require('./Notes');\n\nvar _Notes2 = _interopRequireDefault(_Notes);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var data = _ref.data,\n      posts = _ref.posts;\n\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(_Notes2.default, { posts: posts }),\n    _react2.default.createElement(\n      'h2',\n      null,\n      data.title\n    ),\n    _react2.default.createElement(\n      'div',\n      null,\n      (0, _htmr2.default)(data.contents)\n    )\n  );\n});"
         },
         {
-          "id": 138,
+          "id": 137,
           "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/htmr/lib/htmr.min.js",
           "name": "./node_modules/htmr/lib/htmr.min.js",
           "index": 130,
@@ -298,7 +298,7 @@
           "source": "!function(e,t){\"object\"==typeof exports&&\"undefined\"!=typeof module?module.exports=t(require(\"react\")):\"function\"==typeof define&&define.amd?define([\"react\"],t):e.htmr=t(e.React)}(this,function(e){\"use strict\";function t(e){return e.replace(/(-|:)(.)/g,function(e,t,r){return r.toUpperCase()})}function r(e){var r={};return e.split(\";\").filter(function(e){return\"\"!==e.trim()}).forEach(function(e){var n,a=e.split(\":\");if(a.length>1){var o=function(e){return/^-ms-/.test(e)&&(e=e.substr(1)),t(e)}(a[0].trim()),l=(n=a.slice(1).join(\":\").trim(),/^\\d+$/.test(n)?Number(n):n.replace(/'/g,'\"'));r[o]=l}}),r}e=e&&e.hasOwnProperty(\"default\")?e.default:e;var n={for:\"htmlFor\",class:\"className\",acceptcharset:\"acceptCharset\",accesskey:\"accessKey\",allowfullscreen:\"allowFullScreen\",allowtransparency:\"allowTransparency\",autocomplete:\"autoComplete\",autofocus:\"autoFocus\",autoplay:\"autoPlay\",cellpadding:\"cellPadding\",cellspacing:\"cellSpacing\",charset:\"charSet\",classid:\"classID\",classname:\"className\",colspan:\"colSpan\",contenteditable:\"contentEditable\",contextmenu:\"contextMenu\",crossorigin:\"crossOrigin\",datetime:\"dateTime\",enctype:\"encType\",formaction:\"formAction\",formenctype:\"formEncType\",formmethod:\"formMethod\",formnovalidate:\"formNoValidate\",formtarget:\"formTarget\",frameborder:\"frameBorder\",hreflang:\"hrefLang\",htmlfor:\"htmlFor\",httpequiv:\"httpEquiv\",inputmode:\"inputMode\",keyparams:\"keyParams\",keytype:\"keyType\",marginheight:\"marginHeight\",marginwidth:\"marginWidth\",maxlength:\"maxLength\",mediagroup:\"mediaGroup\",minlength:\"minLength\",novalidate:\"noValidate\",radiogroup:\"radioGroup\",readonly:\"readOnly\",rowspan:\"rowSpan\",spellcheck:\"spellCheck\",srcdoc:\"srcDoc\",srclang:\"srcLang\",srcset:\"srcSet\",tabindex:\"tabIndex\",usemap:\"useMap\"};var a={ELEMENT:1,TEXT:3,COMMENT:8},o=[\"table\",\"tbody\",\"thead\",\"tfoot\",\"tr\"],l=document.createElement(\"div\");function c(i,s,u){var d,m=u.map._;if(i.nodeType===a.COMMENT)return null;if(i.nodeType===a.TEXT){var f=(d=i.textContent,l.innerHTML=d,l.textContent);return m?m(f):f}for(var p=i.tagName.toLowerCase(),h=u.map[p],g={},y=0;y<i.attributes.length;y++){var v=i.attributes[y].name,T=i.attributes[y].value;g[v]=T}g.key=s.toString();for(var E=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};return Object.keys(e).reduce(function(a,o){if(/^on.*/.test(o))return a;var l=o;/^(data|aria)-/.test(o)||(l=t(o));var c=n[l]||l;return a[c]=\"style\"===c?r(e.style):e[o],a},{})}(g),b=[],x=0;x<i.childNodes.length;x++){var C=i.childNodes[x],M=s+\".\"+x;if(!(o.indexOf(p)>-1&&C.nodeType===a.TEXT&&(C.textContent=C.textContent.trim(),\"\"===C.textContent))){var N=c(C,M,u);null!==N&&b.push(N)}}return\"style\"!==p||h||m?(0===b.length&&(b=null),h?e.createElement(h,E,b):m?m(p,E,b):e.createElement(p,E,b)):(E.dangerouslySetInnerHTML={__html:b[0]},e.createElement(p,E,null))}return function(e){var t={map:(arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}).map||{}},r=document.createElement(\"div\");r.innerHTML=e.trim();for(var n=[],a=0;a<r.childNodes.length;a++)n.push(r.childNodes[a]);var o=n.map(function(e,r){return c(e,r,t)}).filter(function(e){return null!==e});return 1===o.length?o[0]:o}});\n"
         },
         {
-          "id": 139,
+          "id": 138,
           "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/containers/Notes.js",
           "name": "./src/containers/Notes.js",
           "index": 131,
@@ -360,10 +360,10 @@
         "src/containers/Post"
       ],
       "files": [
-        "templates/src/containers/Post.c912afde.js",
-        "templates/src/containers/Post.c912afde.js.map"
+        "templates/src/containers/Post.e4ca3b06.js",
+        "templates/src/containers/Post.e4ca3b06.js.map"
       ],
-      "hash": "c912afdec9adcb33a0ce",
+      "hash": "e4ca3b06b674cc0d7337",
       "parents": [
         3
       ],
@@ -416,7 +416,7 @@
           "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _htmr = require('htmr');\n\nvar _htmr2 = _interopRequireDefault(_htmr);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n//\n\nexports.default = (0, _reactStatic.withRouteData)(function (_ref) {\n  var post = _ref.post;\n  return _react2.default.createElement(\n    'div',\n    null,\n    _react2.default.createElement(\n      'h3',\n      null,\n      post.title\n    ),\n    (0, _htmr2.default)(post.contents)\n  );\n});"
         },
         {
-          "id": 138,
+          "id": 137,
           "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/htmr/lib/htmr.min.js",
           "name": "./node_modules/htmr/lib/htmr.min.js",
           "index": 130,
@@ -563,17 +563,17 @@
       "initial": true,
       "entry": false,
       "extraAsync": false,
-      "size": 526715,
+      "size": 527436,
       "names": [
         "main"
       ],
       "files": [
-        "main.ea1657d9.js",
-        "styles.bffed4c5.css",
-        "main.ea1657d9.js.map",
-        "styles.bffed4c5.css.map"
+        "main.1dbaacda.js",
+        "styles.57e2af6a.css",
+        "main.1dbaacda.js.map",
+        "styles.57e2af6a.css.map"
       ],
-      "hash": "ea1657d9cd2fa1a05026",
+      "hash": "1dbaacda3caf1c42eb9a",
       "parents": [
         4
       ],
@@ -970,7 +970,7 @@
               "loc": "9:13-29"
             },
             {
-              "moduleId": 138,
+              "moduleId": 137,
               "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/htmr/lib/htmr.min.js",
               "module": "./node_modules/htmr/lib/htmr.min.js",
               "moduleName": "./node_modules/htmr/lib/htmr.min.js",
@@ -979,7 +979,7 @@
               "loc": "1:85-101"
             },
             {
-              "moduleId": 139,
+              "moduleId": 138,
               "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/containers/Notes.js",
               "module": "./src/containers/Notes.js",
               "moduleName": "./src/containers/Notes.js",
@@ -3207,7 +3207,7 @@
               "loc": "33:19-42"
             },
             {
-              "moduleId": 139,
+              "moduleId": 138,
               "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/containers/Notes.js",
               "module": "./src/containers/Notes.js",
               "moduleName": "./src/containers/Notes.js",
@@ -4348,7 +4348,7 @@
           "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/index.js",
           "name": "./src/index.js",
           "index": 0,
-          "index2": 139,
+          "index2": 138,
           "size": 907,
           "cacheable": true,
           "built": true,
@@ -4566,8 +4566,8 @@
           "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/App.js",
           "name": "./src/App.js",
           "index": 9,
-          "index2": 138,
-          "size": 1931,
+          "index2": 137,
+          "size": 2693,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -4597,7 +4597,7 @@
           "providedExports": null,
           "optimizationBailout": [],
           "depth": 1,
-          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _Analytics = require('./Analytics');\n\nvar _Analytics2 = _interopRequireDefault(_Analytics);\n\nrequire('normalize.css');\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement(\n          'title',\n          null,\n          'Bryan\\'s Tech Blogger'\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'paper' },\n        _react2.default.createElement(\n          'nav',\n          null,\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/' },\n            'Home'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/about' },\n            'About'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/blog' },\n            'Blog'\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          null,\n          _react2.default.createElement(\n            _Analytics2.default,\n            { id: process.env.GA_TOKEN },\n            _react2.default.createElement(_reactStaticRoutes2.default, null)\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+          "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _Analytics = require('./Analytics');\n\nvar _Analytics2 = _interopRequireDefault(_Analytics);\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }),\n        _react2.default.createElement('link', { rel: 'manifest', href: '/site.webmanifest' }),\n        _react2.default.createElement('link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }),\n        _react2.default.createElement('meta', { name: 'msapplication-TileColor', content: '#da532c' }),\n        _react2.default.createElement('meta', { name: 'theme-color', content: '#ffffff' }),\n        _react2.default.createElement(\n          'title',\n          null,\n          'Bryan\\'s Tech Blogger'\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'paper' },\n        _react2.default.createElement(\n          'nav',\n          null,\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/' },\n            'Home'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/about' },\n            'About'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/blog' },\n            'Blog'\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          null,\n          _react2.default.createElement(\n            _Analytics2.default,\n            { id: process.env.GA_TOKEN },\n            _react2.default.createElement(_reactStaticRoutes2.default, null)\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
         },
         {
           "id": 60,
@@ -7572,8 +7572,8 @@
         },
         {
           "id": 136,
-          "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-1-0!/home/travis/build/rogue-bryan/rogue-blog/node_modules/style-loader/index.js??ref--0-oneOf-1-1!/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-          "name": "./node_modules/normalize.css/normalize.css",
+          "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-0-0!/home/travis/build/rogue-bryan/rogue-blog/node_modules/style-loader/index.js??ref--0-oneOf-0-1!/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js!/home/travis/build/rogue-bryan/rogue-blog/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/home/travis/build/rogue-bryan/rogue-blog/src/app.scss",
+          "name": "./src/app.scss",
           "index": 138,
           "index2": 136,
           "size": 41,
@@ -7598,46 +7598,8 @@
               "module": "./src/App.js",
               "moduleName": "./src/App.js",
               "type": "cjs require",
-              "userRequest": "normalize.css",
-              "loc": "23:0-24"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 2,
-          "source": "// removed by extract-text-webpack-plugin"
-        },
-        {
-          "id": 137,
-          "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-0-0!/home/travis/build/rogue-bryan/rogue-blog/node_modules/style-loader/index.js??ref--0-oneOf-0-1!/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js!/home/travis/build/rogue-bryan/rogue-blog/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/home/travis/build/rogue-bryan/rogue-blog/src/app.scss",
-          "name": "./src/app.scss",
-          "index": 139,
-          "index2": 137,
-          "size": 41,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            3
-          ],
-          "assets": [],
-          "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/App.js",
-          "issuerId": 59,
-          "issuerName": "./src/App.js",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 59,
-              "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/App.js",
-              "module": "./src/App.js",
-              "moduleName": "./src/App.js",
-              "type": "cjs require",
               "userRequest": "./app.scss",
-              "loc": "25:0-21"
+              "loc": "23:0-21"
             }
           ],
           "usedExports": true,
@@ -7671,10 +7633,10 @@
         "bootstrap"
       ],
       "files": [
-        "bootstrap.8ef92825.js",
-        "bootstrap.8ef92825.js.map"
+        "bootstrap.261e639a.js",
+        "bootstrap.261e639a.js.map"
       ],
-      "hash": "8ef928254c2f4cbeb33a",
+      "hash": "261e639a26c7f36d4a7c",
       "parents": [],
       "modules": [],
       "filteredModules": 0,
@@ -8074,7 +8036,7 @@
           "loc": "9:13-29"
         },
         {
-          "moduleId": 138,
+          "moduleId": 137,
           "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/htmr/lib/htmr.min.js",
           "module": "./node_modules/htmr/lib/htmr.min.js",
           "moduleName": "./node_modules/htmr/lib/htmr.min.js",
@@ -8083,7 +8045,7 @@
           "loc": "1:85-101"
         },
         {
-          "moduleId": 139,
+          "moduleId": 138,
           "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/containers/Notes.js",
           "module": "./src/containers/Notes.js",
           "moduleName": "./src/containers/Notes.js",
@@ -10311,7 +10273,7 @@
           "loc": "33:19-42"
         },
         {
-          "moduleId": 139,
+          "moduleId": 138,
           "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/containers/Notes.js",
           "module": "./src/containers/Notes.js",
           "moduleName": "./src/containers/Notes.js",
@@ -11593,7 +11555,7 @@
       "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/index.js",
       "name": "./src/index.js",
       "index": 0,
-      "index2": 139,
+      "index2": 138,
       "size": 907,
       "cacheable": true,
       "built": true,
@@ -11811,8 +11773,8 @@
       "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/App.js",
       "name": "./src/App.js",
       "index": 9,
-      "index2": 138,
-      "size": 1931,
+      "index2": 137,
+      "size": 2693,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -11842,7 +11804,7 @@
       "providedExports": null,
       "optimizationBailout": [],
       "depth": 1,
-      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _Analytics = require('./Analytics');\n\nvar _Analytics2 = _interopRequireDefault(_Analytics);\n\nrequire('normalize.css');\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement(\n          'title',\n          null,\n          'Bryan\\'s Tech Blogger'\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'paper' },\n        _react2.default.createElement(\n          'nav',\n          null,\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/' },\n            'Home'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/about' },\n            'About'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/blog' },\n            'Blog'\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          null,\n          _react2.default.createElement(\n            _Analytics2.default,\n            { id: process.env.GA_TOKEN },\n            _react2.default.createElement(_reactStaticRoutes2.default, null)\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
+      "source": "'use strict';\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\n\nvar _react = require('react');\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactStatic = require('react-static');\n\nvar _reactStaticRoutes = require('react-static-routes');\n\nvar _reactStaticRoutes2 = _interopRequireDefault(_reactStaticRoutes);\n\nvar _reactHotLoader = require('react-hot-loader');\n\nvar _Analytics = require('./Analytics');\n\nvar _Analytics2 = _interopRequireDefault(_Analytics);\n\nrequire('./app.scss');\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar App = function App() {\n  return _react2.default.createElement(\n    _reactStatic.Router,\n    null,\n    _react2.default.createElement(\n      'div',\n      null,\n      _react2.default.createElement(\n        _reactStatic.Head,\n        null,\n        _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }),\n        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }),\n        _react2.default.createElement('link', { rel: 'manifest', href: '/site.webmanifest' }),\n        _react2.default.createElement('link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }),\n        _react2.default.createElement('meta', { name: 'msapplication-TileColor', content: '#da532c' }),\n        _react2.default.createElement('meta', { name: 'theme-color', content: '#ffffff' }),\n        _react2.default.createElement(\n          'title',\n          null,\n          'Bryan\\'s Tech Blogger'\n        )\n      ),\n      _react2.default.createElement(\n        'div',\n        { className: 'paper' },\n        _react2.default.createElement(\n          'nav',\n          null,\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/' },\n            'Home'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/about' },\n            'About'\n          ),\n          _react2.default.createElement(\n            _reactStatic.Link,\n            { to: '/blog' },\n            'Blog'\n          )\n        ),\n        _react2.default.createElement(\n          'section',\n          null,\n          _react2.default.createElement(\n            _Analytics2.default,\n            { id: process.env.GA_TOKEN },\n            _react2.default.createElement(_reactStaticRoutes2.default, null)\n          )\n        )\n      )\n    )\n  );\n};\n\nexports.default = (0, _reactHotLoader.hot)(module)(App);"
     },
     {
       "id": 60,
@@ -14817,8 +14779,8 @@
     },
     {
       "id": 136,
-      "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-1-0!/home/travis/build/rogue-bryan/rogue-blog/node_modules/style-loader/index.js??ref--0-oneOf-1-1!/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-      "name": "./node_modules/normalize.css/normalize.css",
+      "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-0-0!/home/travis/build/rogue-bryan/rogue-blog/node_modules/style-loader/index.js??ref--0-oneOf-0-1!/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js!/home/travis/build/rogue-bryan/rogue-blog/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/home/travis/build/rogue-bryan/rogue-blog/src/app.scss",
+      "name": "./src/app.scss",
       "index": 138,
       "index2": 136,
       "size": 41,
@@ -14843,8 +14805,8 @@
           "module": "./src/App.js",
           "moduleName": "./src/App.js",
           "type": "cjs require",
-          "userRequest": "normalize.css",
-          "loc": "23:0-24"
+          "userRequest": "./app.scss",
+          "loc": "23:0-21"
         }
       ],
       "usedExports": true,
@@ -14855,44 +14817,6 @@
     },
     {
       "id": 137,
-      "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/extract-text-webpack-plugin/dist/loader.js??ref--0-oneOf-0-0!/home/travis/build/rogue-bryan/rogue-blog/node_modules/style-loader/index.js??ref--0-oneOf-0-1!/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-0-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js!/home/travis/build/rogue-bryan/rogue-blog/node_modules/sass-loader/lib/loader.js??ref--0-oneOf-0-4!/home/travis/build/rogue-bryan/rogue-blog/src/app.scss",
-      "name": "./src/app.scss",
-      "index": 139,
-      "index2": 137,
-      "size": 41,
-      "cacheable": true,
-      "built": true,
-      "optional": false,
-      "prefetched": false,
-      "chunks": [
-        3
-      ],
-      "assets": [],
-      "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/App.js",
-      "issuerId": 59,
-      "issuerName": "./src/App.js",
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "reasons": [
-        {
-          "moduleId": 59,
-          "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/App.js",
-          "module": "./src/App.js",
-          "moduleName": "./src/App.js",
-          "type": "cjs require",
-          "userRequest": "./app.scss",
-          "loc": "25:0-21"
-        }
-      ],
-      "usedExports": true,
-      "providedExports": null,
-      "optimizationBailout": [],
-      "depth": 2,
-      "source": "// removed by extract-text-webpack-plugin"
-    },
-    {
-      "id": 138,
       "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/htmr/lib/htmr.min.js",
       "name": "./node_modules/htmr/lib/htmr.min.js",
       "index": 130,
@@ -14940,7 +14864,7 @@
       "source": "!function(e,t){\"object\"==typeof exports&&\"undefined\"!=typeof module?module.exports=t(require(\"react\")):\"function\"==typeof define&&define.amd?define([\"react\"],t):e.htmr=t(e.React)}(this,function(e){\"use strict\";function t(e){return e.replace(/(-|:)(.)/g,function(e,t,r){return r.toUpperCase()})}function r(e){var r={};return e.split(\";\").filter(function(e){return\"\"!==e.trim()}).forEach(function(e){var n,a=e.split(\":\");if(a.length>1){var o=function(e){return/^-ms-/.test(e)&&(e=e.substr(1)),t(e)}(a[0].trim()),l=(n=a.slice(1).join(\":\").trim(),/^\\d+$/.test(n)?Number(n):n.replace(/'/g,'\"'));r[o]=l}}),r}e=e&&e.hasOwnProperty(\"default\")?e.default:e;var n={for:\"htmlFor\",class:\"className\",acceptcharset:\"acceptCharset\",accesskey:\"accessKey\",allowfullscreen:\"allowFullScreen\",allowtransparency:\"allowTransparency\",autocomplete:\"autoComplete\",autofocus:\"autoFocus\",autoplay:\"autoPlay\",cellpadding:\"cellPadding\",cellspacing:\"cellSpacing\",charset:\"charSet\",classid:\"classID\",classname:\"className\",colspan:\"colSpan\",contenteditable:\"contentEditable\",contextmenu:\"contextMenu\",crossorigin:\"crossOrigin\",datetime:\"dateTime\",enctype:\"encType\",formaction:\"formAction\",formenctype:\"formEncType\",formmethod:\"formMethod\",formnovalidate:\"formNoValidate\",formtarget:\"formTarget\",frameborder:\"frameBorder\",hreflang:\"hrefLang\",htmlfor:\"htmlFor\",httpequiv:\"httpEquiv\",inputmode:\"inputMode\",keyparams:\"keyParams\",keytype:\"keyType\",marginheight:\"marginHeight\",marginwidth:\"marginWidth\",maxlength:\"maxLength\",mediagroup:\"mediaGroup\",minlength:\"minLength\",novalidate:\"noValidate\",radiogroup:\"radioGroup\",readonly:\"readOnly\",rowspan:\"rowSpan\",spellcheck:\"spellCheck\",srcdoc:\"srcDoc\",srclang:\"srcLang\",srcset:\"srcSet\",tabindex:\"tabIndex\",usemap:\"useMap\"};var a={ELEMENT:1,TEXT:3,COMMENT:8},o=[\"table\",\"tbody\",\"thead\",\"tfoot\",\"tr\"],l=document.createElement(\"div\");function c(i,s,u){var d,m=u.map._;if(i.nodeType===a.COMMENT)return null;if(i.nodeType===a.TEXT){var f=(d=i.textContent,l.innerHTML=d,l.textContent);return m?m(f):f}for(var p=i.tagName.toLowerCase(),h=u.map[p],g={},y=0;y<i.attributes.length;y++){var v=i.attributes[y].name,T=i.attributes[y].value;g[v]=T}g.key=s.toString();for(var E=function(){var e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};return Object.keys(e).reduce(function(a,o){if(/^on.*/.test(o))return a;var l=o;/^(data|aria)-/.test(o)||(l=t(o));var c=n[l]||l;return a[c]=\"style\"===c?r(e.style):e[o],a},{})}(g),b=[],x=0;x<i.childNodes.length;x++){var C=i.childNodes[x],M=s+\".\"+x;if(!(o.indexOf(p)>-1&&C.nodeType===a.TEXT&&(C.textContent=C.textContent.trim(),\"\"===C.textContent))){var N=c(C,M,u);null!==N&&b.push(N)}}return\"style\"!==p||h||m?(0===b.length&&(b=null),h?e.createElement(h,E,b):m?m(p,E,b):e.createElement(p,E,b)):(E.dangerouslySetInnerHTML={__html:b[0]},e.createElement(p,E,null))}return function(e){var t={map:(arguments.length>1&&void 0!==arguments[1]?arguments[1]:{}).map||{}},r=document.createElement(\"div\");r.innerHTML=e.trim();for(var n=[],a=0;a<r.childNodes.length;a++)n.push(r.childNodes[a]);var o=n.map(function(e,r){return c(e,r,t)}).filter(function(e){return null!==e});return 1===o.length?o[0]:o}});\n"
     },
     {
-      "id": 139,
+      "id": 138,
       "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/src/containers/Notes.js",
       "name": "./src/containers/Notes.js",
       "index": 131,
@@ -14980,190 +14904,6 @@
   ],
   "filteredModules": 0,
   "children": [
-    {
-      "errors": [],
-      "warnings": [],
-      "publicPath": "https://bryanrengo.com/",
-      "assetsByChunkName": {},
-      "assets": [],
-      "filteredAssets": 0,
-      "entrypoints": {
-        "undefined": {
-          "chunks": [
-            0
-          ],
-          "assets": [
-            "extract-text-webpack-plugin-output-filename"
-          ]
-        }
-      },
-      "chunks": [
-        {
-          "id": 0,
-          "rendered": true,
-          "initial": true,
-          "entry": true,
-          "extraAsync": false,
-          "size": 4340,
-          "names": [],
-          "files": [
-            "extract-text-webpack-plugin-output-filename"
-          ],
-          "hash": "2ba8a8871f6ace410d39",
-          "parents": [],
-          "modules": [
-            {
-              "id": 0,
-              "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-              "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-              "index": 0,
-              "index2": 1,
-              "size": 2080,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": null,
-              "issuerId": null,
-              "issuerName": null,
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 0,
-              "source": "exports = module.exports = require(\"../css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}\", \"\"]);\n\n// exports\n"
-            },
-            {
-              "id": 1,
-              "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/lib/css-base.js",
-              "name": "./node_modules/css-loader/lib/css-base.js",
-              "index": 1,
-              "index2": 0,
-              "size": 2260,
-              "cacheable": true,
-              "built": true,
-              "optional": false,
-              "prefetched": false,
-              "chunks": [
-                0
-              ],
-              "assets": [],
-              "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-              "issuerId": 0,
-              "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-              "failed": false,
-              "errors": 0,
-              "warnings": 0,
-              "reasons": [
-                {
-                  "moduleId": 0,
-                  "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-                  "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-                  "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-                  "type": "cjs require",
-                  "userRequest": "../css-loader/lib/css-base.js",
-                  "loc": "1:27-67"
-                }
-              ],
-              "usedExports": true,
-              "providedExports": null,
-              "optimizationBailout": [],
-              "depth": 1,
-              "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-            }
-          ],
-          "filteredModules": 0,
-          "origins": [
-            {
-              "moduleId": 0,
-              "module": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-              "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-              "loc": "",
-              "reasons": []
-            }
-          ]
-        }
-      ],
-      "modules": [
-        {
-          "id": 0,
-          "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-          "name": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-          "index": 0,
-          "index2": 1,
-          "size": 2080,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": null,
-          "issuerId": null,
-          "issuerName": null,
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 0,
-          "source": "exports = module.exports = require(\"../css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.id, \"/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:block}h1{font-size:2em;margin:.67em 0}hr{-webkit-box-sizing:content-box;box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{-webkit-box-sizing:border-box;box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{-webkit-box-sizing:border-box;box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details{display:block}summary{display:list-item}[hidden],template{display:none}\", \"\"]);\n\n// exports\n"
-        },
-        {
-          "id": 1,
-          "identifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/lib/css-base.js",
-          "name": "./node_modules/css-loader/lib/css-base.js",
-          "index": 1,
-          "index2": 0,
-          "size": 2260,
-          "cacheable": true,
-          "built": true,
-          "optional": false,
-          "prefetched": false,
-          "chunks": [
-            0
-          ],
-          "assets": [],
-          "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-          "issuerId": 0,
-          "issuerName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-          "failed": false,
-          "errors": 0,
-          "warnings": 0,
-          "reasons": [
-            {
-              "moduleId": 0,
-              "moduleIdentifier": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/css-loader/index.js??ref--0-oneOf-1-2!/home/travis/build/rogue-bryan/rogue-blog/node_modules/postcss-loader/lib/index.js??postcss!/home/travis/build/rogue-bryan/rogue-blog/node_modules/normalize.css/normalize.css",
-              "module": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-              "moduleName": "./node_modules/css-loader??ref--0-oneOf-1-2!./node_modules/postcss-loader/lib??postcss!./node_modules/normalize.css/normalize.css",
-              "type": "cjs require",
-              "userRequest": "../css-loader/lib/css-base.js",
-              "loc": "1:27-67"
-            }
-          ],
-          "usedExports": true,
-          "providedExports": null,
-          "optimizationBailout": [],
-          "depth": 1,
-          "source": "/*\n\tMIT License http://www.opensource.org/licenses/mit-license.php\n\tAuthor Tobias Koppers @sokra\n*/\n// css base code, injected by the css-loader\nmodule.exports = function(useSourceMap) {\n\tvar list = [];\n\n\t// return the list of modules as css string\n\tlist.toString = function toString() {\n\t\treturn this.map(function (item) {\n\t\t\tvar content = cssWithMappingToString(item, useSourceMap);\n\t\t\tif(item[2]) {\n\t\t\t\treturn \"@media \" + item[2] + \"{\" + content + \"}\";\n\t\t\t} else {\n\t\t\t\treturn content;\n\t\t\t}\n\t\t}).join(\"\");\n\t};\n\n\t// import a list of modules into the list\n\tlist.i = function(modules, mediaQuery) {\n\t\tif(typeof modules === \"string\")\n\t\t\tmodules = [[null, modules, \"\"]];\n\t\tvar alreadyImportedModules = {};\n\t\tfor(var i = 0; i < this.length; i++) {\n\t\t\tvar id = this[i][0];\n\t\t\tif(typeof id === \"number\")\n\t\t\t\talreadyImportedModules[id] = true;\n\t\t}\n\t\tfor(i = 0; i < modules.length; i++) {\n\t\t\tvar item = modules[i];\n\t\t\t// skip already imported module\n\t\t\t// this implementation is not 100% perfect for weird media query combinations\n\t\t\t//  when a module is imported multiple times with different media queries.\n\t\t\t//  I hope this will never occur (Hey this way we have smaller bundles)\n\t\t\tif(typeof item[0] !== \"number\" || !alreadyImportedModules[item[0]]) {\n\t\t\t\tif(mediaQuery && !item[2]) {\n\t\t\t\t\titem[2] = mediaQuery;\n\t\t\t\t} else if(mediaQuery) {\n\t\t\t\t\titem[2] = \"(\" + item[2] + \") and (\" + mediaQuery + \")\";\n\t\t\t\t}\n\t\t\t\tlist.push(item);\n\t\t\t}\n\t\t}\n\t};\n\treturn list;\n};\n\nfunction cssWithMappingToString(item, useSourceMap) {\n\tvar content = item[1] || '';\n\tvar cssMapping = item[3];\n\tif (!cssMapping) {\n\t\treturn content;\n\t}\n\n\tif (useSourceMap && typeof btoa === 'function') {\n\t\tvar sourceMapping = toComment(cssMapping);\n\t\tvar sourceURLs = cssMapping.sources.map(function (source) {\n\t\t\treturn '/*# sourceURL=' + cssMapping.sourceRoot + source + ' */'\n\t\t});\n\n\t\treturn [content].concat(sourceURLs).concat([sourceMapping]).join('\\n');\n\t}\n\n\treturn [content].join('\\n');\n}\n\n// Adapted from convert-source-map (MIT)\nfunction toComment(sourceMap) {\n\t// eslint-disable-next-line no-undef\n\tvar base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));\n\tvar data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;\n\n\treturn '/*# ' + data + ' */';\n}\n"
-        }
-      ],
-      "filteredModules": 0,
-      "children": [],
-      "name": "extract-text-webpack-plugin node_modules/extract-text-webpack-plugin/dist node_modules/css-loader/index.js??ref--0-oneOf-1-2!node_modules/postcss-loader/lib/index.js??postcss!node_modules/normalize.css/normalize.css"
-    },
     {
       "errors": [],
       "warnings": [],

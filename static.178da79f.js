@@ -462,8 +462,6 @@ var _Analytics2 = _interopRequireDefault(_Analytics);
 
 __webpack_require__(25);
 
-__webpack_require__(26);
-
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
@@ -476,6 +474,13 @@ var App = function App() {
       _react2.default.createElement(
         _reactStatic.Head,
         null,
+        _react2.default.createElement('link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' }),
+        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' }),
+        _react2.default.createElement('link', { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' }),
+        _react2.default.createElement('link', { rel: 'manifest', href: '/site.webmanifest' }),
+        _react2.default.createElement('link', { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#5bbad5' }),
+        _react2.default.createElement('meta', { name: 'msapplication-TileColor', content: '#da532c' }),
+        _react2.default.createElement('meta', { name: 'theme-color', content: '#ffffff' }),
         _react2.default.createElement(
           'title',
           null,
@@ -1451,15 +1456,9 @@ module.exports = require("react-router-ga");
 
 /***/ }),
 /* 25 */
-/***/ (function(module, exports) {
-
-module.exports = require("normalize.css");
-
-/***/ }),
-/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(27)(false);
+exports = module.exports = __webpack_require__(26)(false);
 // imports
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Gaegu);", ""]);
 
@@ -1470,7 +1469,7 @@ exports.push([module.i, "body {\n  font-family: 'Gaegu', sans-serif;\n  font-siz
 
 
 /***/ }),
-/* 27 */
+/* 26 */
 /***/ (function(module, exports) {
 
 /*
@@ -1554,4 +1553,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.b1080638.js.map
+//# sourceMappingURL=static.178da79f.js.map
