@@ -1,6 +1,7 @@
 ---
 title: Hosting a Static Site on Github
-slug: 06-26-2018-github
+slug: github
+date: 06-26-2018
 ---
 
 So, this Github thing, am I right? I had this idea that I'd want to store some code somewhere I didn't have to worry about losing it. [You really should version control your code someway, somehow!](https://mikemcquaid.com/2014/01/18/why-use-version-control/)
