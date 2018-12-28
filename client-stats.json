@@ -3,7 +3,7 @@
   "warnings": [],
   "version": "3.12.0",
   "hash": "bffed4c5d69ade2222d3",
-  "time": 7213,
+  "time": 7835,
   "publicPath": "https://bryanrengo.com/",
   "assetsByChunkName": {
     "src/containers/Page": [
@@ -1913,9 +1913,9 @@
             3
           ],
           "assets": [],
-          "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/dist/react-static-routes.js",
-          "issuerId": 126,
-          "issuerName": "./dist/react-static-routes.js",
+          "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/react-static/lib/client/components/RouteData.js",
+          "issuerId": 90,
+          "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
           "failed": false,
           "errors": 0,
           "warnings": 0,
@@ -9017,9 +9017,9 @@
         3
       ],
       "assets": [],
-      "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/babel-loader/lib/index.js??ref--0-oneOf-2-0!/home/travis/build/rogue-bryan/rogue-blog/dist/react-static-routes.js",
-      "issuerId": 126,
-      "issuerName": "./dist/react-static-routes.js",
+      "issuer": "/home/travis/build/rogue-bryan/rogue-blog/node_modules/react-static/lib/client/components/RouteData.js",
+      "issuerId": 90,
+      "issuerName": "./node_modules/react-static/lib/client/components/RouteData.js",
       "failed": false,
       "errors": 0,
       "warnings": 0,
