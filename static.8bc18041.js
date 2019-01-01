@@ -336,7 +336,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
           { key: post.slug },
           _react2.default.createElement(
             _reactStatic.Link,
-            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },
+            { to: post.date ? '/blog/' + post.date + '/' + post.slug + '/' : '/blog/' + post.slug + '/' },
             post.title
           )
         );
@@ -1389,7 +1389,7 @@ exports.default = (0, _reactStatic.withRouteData)(function (_ref) {
                         { key: post.slug },
                         _react2.default.createElement(
                             _reactStatic.Link,
-                            { to: post.date ? '/blog/post/' + post.date + '/' + post.slug + '/' : '/blog/post/' + post.slug + '/' },
+                            { to: post.date ? '/blog/' + post.date + '/' + post.slug + '/' : '/blog/' + post.slug + '/' },
                             post.title
                         )
                     );
@@ -1551,4 +1551,4 @@ function toComment(sourceMap) {
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=static.0ad6d3ec.js.map
+//# sourceMappingURL=static.8bc18041.js.map
