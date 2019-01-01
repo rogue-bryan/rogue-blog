@@ -32,7 +32,7 @@ const getPosts = (postPath) => {
     }),
     children: children.map(post => ({
       name: post.name,
-      path: post.date ? `/post/${post.date}/${post.slug}` : `/post/${post.slug}`,
+      path: post.date ? `/${post.date}/${post.slug}` : `/${post.slug}`,
       component: './src/containers/Post',
       getData: () => ({
         post,
