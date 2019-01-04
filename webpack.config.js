@@ -30,6 +30,7 @@ export default (config, { defaultLoaders, stage }) => {
 
       // Don't extract css to file during node build process
       if (stage !== 'node') {
+        console.log(stage);
         loaders = ExtractTextPlugin.extract({
           fallback: {
             loader: 'style-loader',
@@ -59,6 +60,7 @@ export default (config, { defaultLoaders, stage }) => {
 
     config.plugins = [
       ...config.plugins,
+      new ExtractTextPlugin('style.css'),
       new Dotenv()
     ]
     return config
