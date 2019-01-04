@@ -5,7 +5,7 @@ export default withRouteData(({ posts }) => {
     if (posts && posts.length) {
         return (
             <div className="note">
-                <h2>Recent Posts</h2>
+                <h3>Recent Posts</h3>
                 <ul>
                 {posts.map(post => (
                     <li key={post.slug}>

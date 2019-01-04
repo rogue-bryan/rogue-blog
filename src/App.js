@@ -4,7 +4,7 @@ import Routes from 'react-static-routes'
 import { hot } from 'react-hot-loader'
 import Analytics from './Analytics'
 
-import './app.scss'
+import '../node_modules/papercss/dist/paper.css';
 
 const App = () => (
   <Router>
@@ -19,17 +19,37 @@ const App = () => (
         <meta name="theme-color" content="#ffffff"/>
         <title>Bryan's Tech Blogger</title>
       </Head>
-      <div className="paper">
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/blog">Blog</Link>
+      <div className="paper container">
+        
+        <nav className="split-nav">
+          <div className="nav-brand">
+            <h3>test</h3>
+          </div>
+          <div className="collapsible">
+            <input id="collapsible1" type="checkbox" name="collapsible1"/>
+            <button>
+              <label htmlFor="collapsible1">
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+                <div className="bar3"></div>
+              </label>
+            </button>
+            <div className="collapsible-body">
+              <ul className="inline">
+                <li><Link to="/">Home</Link></li>
+                <li><Link to="/about">About</Link></li>
+                <li><Link to="/blog">Blog</Link></li>
+              </ul>
+            </div>            
+          </div>
         </nav>
+
         <section>
           <Analytics id={process.env.GA_TOKEN}>
             <Routes />
           </Analytics>
         </section>
+
       </div>
     </div>
   </Router>

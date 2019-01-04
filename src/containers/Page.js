@@ -7,7 +7,7 @@ export default withRouteData(({ data, posts }) => {
   return (
   <div>
     <Notes posts={posts} />
-    <h2>{data.title}</h2>
+    <h3>{data.title}</h3>
     <div>
       {convert(data.contents)}
     </div>
